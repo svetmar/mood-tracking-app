@@ -1,5 +1,4 @@
-
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
@@ -7,8 +6,7 @@ function App() {
       <h1>Mood Tracking App</h1>
       <p>Track your mood, sleep, and daily reflections.</p>
     </main>
-  )
+  );
 }
 
-export default App
-
+export default App;
