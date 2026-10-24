@@ -1,0 +1,5 @@
+.container {
+    /* width: var(--container-width); TODO: добавить css custom properties в root*/ 
+    width: 1170px;
+    margin-inline: auto;
+}

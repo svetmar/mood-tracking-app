@@ -16,12 +16,38 @@
 }
 
 :root {
+  --color-text: #21214D;
+  --color-accent: #4865DB;
+  --color-muted: #57577B;
+
+  --container-width: 1170px; /*использовать в Container */
+  --dropdown-width: 200px; /*использовать в Dropdown */
+  --page-margin-top: 40px; /*использовать в Header */
+  --greeting-height: 160px; /*использовать в Greeting */
+  --greeting-gap: 10px; /*использовать в Greeting */
+  --mood-button-container-height: 188px;/*использовать в Header */
+
   font-family: 'Reddit Sans', sans-serif;
   font-weight: 400;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1199px) {/*tablet */
+  :root {
+    --container-width: 704px;
+    --mood-button-container-height: 156px;
+  }
+}
+
+@media (max-width: 767px) {/*mobile */
+  :root {
+    --container-width: 343px;
+    --dropdown-width: 100%;
+    --page-margin-top: 32px;
+  }
 }
 
 * {
@@ -31,6 +57,16 @@
 body {
   margin: 0;
   font-family: 'Reddit Sans', sans-serif;
+  background: linear-gradient(
+    to bottom,
+    #F5F5FF 73%,
+    #E0E0FF 100%
+  );
+}
+
+p, hr, ul, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
 }
 
 #root {

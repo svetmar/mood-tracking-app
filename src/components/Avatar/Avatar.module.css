@@ -1,0 +1,11 @@
+.avatarContainer {
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #C3C3C3;
+}
+
+.avatarImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
