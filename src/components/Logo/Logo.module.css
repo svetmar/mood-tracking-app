@@ -1,0 +1,14 @@
+.logoContainer {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logoHeader {
+    font-weight: 700;
+    color: var(--color-text);
+    font-size: 21px;
+    line-height: normal;
+    letter-spacing: -0.8px;
+}
